@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+header{
+    padding: 30px 20px;
+    background-color: #ffffff;
+    position:sticky;
+    top:0;
+    width: 100%;
+    z-index: 1111;
+}
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.main-head img{
+    height: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding:5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all linear 0.5s;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #073e91;
+    font-weight: 500;
+    padding: 5px;
+}
+section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 110vh;
+    width: 100%;
+}
+section h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #073e91;
+}
+#home{
+    background-image: url(images/home.PNG);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#about{
+    background-image: url(images/about1.PNG);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#placeamachine{
+    background-image: url(images/placeamachine.PNG);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#products{
+    background-image: url(images/products.PNG);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#machinetypes{
+    background-image: url(images/machinetypes.PNG);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#contactus{
+    background-color: #ffffff;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #073e91;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height:5px;
+    background-color: #073e91;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #073e91;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #ffd7f1;
+}
+.contact-inputs::placeholder{
+    color: #073e91;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    font-size: 16px;
+    color: #073e91;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #c6f2ff;
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    color: #073e91;
+}
