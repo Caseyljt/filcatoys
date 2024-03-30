@@ -23,7 +23,7 @@ header{
     text-transform: uppercase;
 }
 .main-head img{
-    height: 50px;
+    height: 80px;
 }
 ul{
     display: flex;
@@ -47,7 +47,7 @@ section{
     display: flex;
     justify-content:center;
     align-items: center;
-    min-height: 110vh;
+    max-height: 105vh;
     width: 100%;
 }
 section h1{
@@ -57,32 +57,27 @@ section h1{
     opacity: 1;
     color: #073e91;
 }
-#home{
-    background-image: url(images/home.PNG);
+#home img{
     background-size: cover;
     width: 100%;
     height: auto;
 }
-#about{
-    background-image: url(images/about1.PNG);
+#about img{
     background-size: cover;
     width: 100%;
     height: auto;
 }
-#placeamachine{
-    background-image: url(images/placeamachine.PNG);
+#placeamachine img{
     background-size: cover;
     width: 100%;
     height: auto;
 }
-#products{
-    background-image: url(images/products.PNG);
+#products img{
     background-size: cover;
     width: 100%;
     height: auto;
 }
-#machinetypes{
-    background-image: url(images/machinetypes.PNG);
+#machinetypes img{
     background-size: cover;
     width: 100%;
     height: auto;
