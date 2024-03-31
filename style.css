@@ -185,6 +185,10 @@ img{
     pointer-events: none;
 }
 @media (max-width:1060px){
+    header img{
+        height: 40px;
+    }
+
     header .btn{
         display: block; 
     }
@@ -197,7 +201,7 @@ img{
         height:100vh;
         top: 0;
         right: -100%;
-        padding:80px 50px;
+        padding:0;
         transition: 0.5s;
         transition-property: right;
     }
@@ -208,7 +212,7 @@ img{
         position: absolute;
         top: 0;
         left: 0;
-        margin: 25px;
+        margin: 0px;
     }
     header .menu a{
         display: block;
