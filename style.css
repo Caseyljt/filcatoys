@@ -166,3 +166,6 @@ footer{
     padding: 5px;
     color: #073e91;
 }
+img{
+    pointer-events: none;
+}
